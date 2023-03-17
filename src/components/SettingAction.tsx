@@ -72,44 +72,6 @@ export default function SettingAction(props: {
             }}
           />
         </SettingItem>
-        <SettingItem
-          icon="i-carbon:save-image"
-          label="记录对话内容，刷新不会消失"
-        >
-          <label class="relative inline-flex items-center cursor-pointer ml-1">
-            <input
-              type="checkbox"
-              checked={props.setting().archiveSession}
-              class="sr-only peer"
-              onChange={e => {
-                props.setSetting({
-                  ...props.setting(),
-                  archiveSession: (e.target as HTMLInputElement).checked
-                })
-              }}
-            />
-            <div class="w-9 h-5 bg-slate bg-op-15 peer-focus:outline-none peer-focus:ring-0  rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-slate"></div>
-          </label>
-        </SettingItem>
-        <SettingItem
-          icon="i-carbon:3d-curve-auto-colon"
-          label="开启连续对话，将加倍消耗 Token"
-        >
-          <label class="relative inline-flex items-center cursor-pointer ml-1">
-            <input
-              type="checkbox"
-              checked={props.setting().continuousDialogue}
-              class="sr-only peer"
-              onChange={e => {
-                props.setSetting({
-                  ...props.setting(),
-                  continuousDialogue: (e.target as HTMLInputElement).checked
-                })
-              }}
-            />
-            <div class="w-9 h-5 bg-slate bg-op-15 peer-focus:outline-none peer-focus:ring-0  rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-slate"></div>
-          </label>
-        </SettingItem>
         <hr class="mt-2 bg-slate-5 bg-op-15 border-none h-1px"></hr>
       </Show>
       <div class="mt-2 flex items-center justify-between">

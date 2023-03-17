@@ -7,13 +7,9 @@ export const setting = {
   systemRule: ""
 }
 
-export const message = `- 由 [OpenAI API (gpt-3.5-turbo)](https://platform.openai.com/docs/guides/chat) 和 [Vercel](http://vercel.com/) 提供支持。
-- 由 [@ourongxing](https://github.com/ourongxing) 基于 [chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo) 开发，查看 [源码](https://github.com/ourongxing/chatgpt-vercel)，欢迎自部署。
-- 该网站仅作为演示，不提供长期服务，网站密码为 \`ourongxing\`，请勿滥用。
-- 如果本项目对你有所帮助，可以给小猫 [买点零食](https://cdn.jsdelivr.net/gh/ourongxing/chatgpt-vercel/assets/reward.gif)，但不接受任何付费功能请求。
-- 该预览页面域名由 [@AUDI_GUZZ](https://m.okjike.com/users/4af3cfb4-1291-4a8b-b210-f515c86934a9) 和 [@Airyland](https://m.okjike.com/users/C6C8DE3A-E89D-4978-9E7D-B2E167D835A9) 免费提供，API Key 由 [@AUDI_GUZZ](https://m.okjike.com/users/4af3cfb4-1291-4a8b-b210-f515c86934a9) 和 [@ourongxing](https://github.com/ourongxing) 免费提供，感谢。
-- [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] Prompt 预设。[[↑]] 可编辑最近一次提问。点击名称滚动到顶部，点击输入框滚动到底部。`
-
+export const message = `请持续关注AI Insights 公众号，同时该网站仅作为演示，不提供长期服务，请勿提问涉政涉敏等问题，请勿滥用，如有发现，永久拉黑。
+- 欢迎加入我的星球，在我的知识星球里，你可以关注到最新的前沿消息，和chatGPT的高级玩法，用chatGPT挣笔小钱。
+- 本网站目前完全本人自掏腰包，投入有限，key值可能随时超额，切用且珍惜，`
 export type Setting = typeof setting
 
 export const resetContinuousDialogue = false
